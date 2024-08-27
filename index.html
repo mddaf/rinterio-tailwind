@@ -32,6 +32,7 @@
                     colors: {
                         clifford: '#737373',
                     }
+                    
                 }
             }
         }
@@ -160,7 +161,7 @@
                     <div class="hero-content flex-col lg:flex-row">
                         <div class=" flex flex-col lg:items-start max-w-[520px]">
 
-                            <div class="indicator">
+                            <div class="indicator hidden md:block">
                                 <span class="indicator-item indicator-start "><img src="assets/Vector.png" alt=""></span>
                                 <div class="grid h-20 place-items-center"><a class="btn font-bold">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -171,7 +172,14 @@
                                     About Us
                                 </a></div>
                               </div>
-                            
+                              <a class="btn font-bold sm:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="#494949" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                </svg>
+                                About Us
+                            </a>
                             <h1 class="text-5xl font-bold text-center lg:text-start">We design thoughtful,<br> liveable spaces</h1>
                             <p class="py-6 text-center lg:text-start">
                                 The barn house captivates with its blend of rustic charm and
@@ -218,7 +226,7 @@
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                                 </svg>
-                                About Us
+                                How we works
                             </a>
                             <h1 class="text-5xl font-bold">Our Works Process</h1>
                             <p class="py-6">
@@ -254,42 +262,77 @@
             </div>
         </section>
 
+        <section class="flex flex-col items-center">
 
-        <!-- <section class="hero bg-base-200">
-            <div class="flex flex-col lg:flex-row">
+            <div class="hero-content text-center flex-col max-w-2xl">
+                <a class="btn max-w-60 font-bold bg-[#abef5f33] rounded-[24px]">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#494949"
+                        class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                    </svg>
+                    Explore our latest works
+                </a>
+                <h1 class="text-5xl font-bold">Our Latest Portfolio</h1>
+                <p class="py-6">
+                    The barn house captivates with its blend of rustic charm and modern sophistication,
+                    featuring weathered wood, sleek metal accents.
+                </p>
+            </div>
 
-                <div class=" max-w-xl ">
-                    <a class="btn font-bold">
 
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="#494949" class="size-6">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-                        </svg>
-                        About Us
-                    </a>
-                    <h1 class="text-5xl font-extrabold">
-                        We design thoughtful, <br> liveable spaces</h1>
-                    <p class="py-6">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
 
-                    <div class="flex space-x-8 p-6">
-                        <img src="assets/commercial.png" alt="">
-                        <div class="space-y-2">
-                            <h1 class="font-extrabold">Commercial</h1>
-                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
-                        </div>
+            <div class="flex items-center flex-col lg:flex-row">
+                <div class="hero">
+                    <div class="hero-content flex-col lg:flex-row">
+                      <img
+                        src="assets/img1.png"
+                        class="max-w-56 max-h-44 lg:max-w-sm rounded-lg" />
+                      <div class="p-7">
+                        <h1 class="text-2xl font-extrabold">Commercial</h1>
+                        <p class="py-6">
+                            The barn house captivates with its blend of rustic charm and modern. 
+                        </p>
+                        <a class="btn rounded-[32px] font-extrabold">View Details
+
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 bg-[#ABEF5F] rounded-full -rotate-45">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                            </svg>
+                        </a>
+                      </div>
                     </div>
-                    <div class="flex space-x-8 p-6">
-                        <img src="assets/residential.png" alt="">
-                        <div class="space-y-2">
-                            <h1 class="font-extrabold">Residential</h1>
-                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
-                        </div>
+                  </div>
+                <div class="flex-none">
+                    <img src="assets/img2.png" class="max-w-56 max-h-44 lg:max-w-sm rounded-lg" alt="">
+                </div>
+            </div>
+            <div class="flex items-center flex-col lg:flex-row max-w-6xl">
+                <div class="flex-none py-7"><img src="assets/img3.png" class="max-w-56 max-h-44 lg:max-h-40 rounded-lg"  alt=""></div>
+                <div class="">
+                    <div class="hero-content flex-col lg:flex-row">
+                      <img
+                        src="assets/img4.png"
+                        class="max-w-56 max-h-44 rounded-lg" />
+                      <div class="p-7">
+                        <h1 class="text-2xl font-extrabold">Commercial</h1>
+                        <p class="py-6">
+                            The barn house captivates with its blend of rustic charm and modern. 
+                        </p>
+                        <a class="btn rounded-[32px] font-extrabold appearance-none">View Details
+
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 bg-[#ABEF5F] rounded-full -rotate-45">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                            </svg>
+                        </a>
+                      </div>
                     </div>
                 </div>
-                <img src="assets/Rectangle.png" alt="">
+                <div class="flex-none"><img src="assets/img5.png" class="max-w-56 max-h-44 lg:max-h-40 rounded-lg" alt=""></div>
             </div>
-        </section> -->
+        </section>
     </main>
 
     <footer>
