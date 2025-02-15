@@ -1,4 +1,4 @@
-# [Rinterio](https://mddaf.github.io/rinterio-tailwind/)
+# Rinterio
 
 **Project Description:**  
 Rinterio is a sleek and modern landing page designed for an interior design service. This page showcases the company's expertise in blending rustic charm with modern sophistication. With a clean design, intuitive layout, and seamless functionality, Rinterio aims to engage clients and prompt them to book consultations for their next project.
